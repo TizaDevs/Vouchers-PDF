@@ -1,0 +1,33 @@
+{
+  "name": "vouchers-pdf",
+  "version": "1.0.0",
+  "description": "bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TizaDevs/Vouchers-PDF.git"
+  },
+  "keywords": [
+    "bot",
+    "puppeteer",
+    "pdf",
+    "worker"
+  ],
+  "author": "TizaDevs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TizaDevs/Vouchers-PDF/issues"
+  },
+  "homepage": "https://github.com/TizaDevs/Vouchers-PDF#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^7.19.0",
+    "amqplib": "^1.0.3",
+    "dotenv": "^17.4.2",
+    "generic-pool": "^3.9.0",
+    "puppeteer": "^24.40.0",
+    "qrcode": "^1.5.4"
+  }
+}
