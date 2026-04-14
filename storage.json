@@ -1,0 +1,13 @@
+//  Remplaza por los datos de tu proyecto de GCP
+// {
+//   "type": "service_account",
+//   "project_id": "your-ideName",
+//   "private_key_id": "xx423a15eacd4ba64803xxxxxxxxxxxxxxxxxxxx",
+//   "private_key": "-----BEGIN PRIVATE KEY-----\nYOURPRIVATEKEY\DATA/KEY/DATA/DATA\n-----END PRIVATE KEY-----\n",
+//   "client_email": "project@projectID.iam.gserviceaccount.com",
+//   "client_id": "xxxxxxxxxxxxxxxxxxxxx",
+//   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+//   "token_uri": "https://oauth2.googleapis.com/token",
+//   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+//   "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/projectIde.iam.gserviceaccount.com"
+// }
