@@ -1,0 +1,147 @@
+:root {
+    --tiz-blue-dark: #1e293b;
+    --tiz-blue-light: #dd3434;
+    --tiz-bg-gray: #f8fafc;
+    --tiz-text: #334155;
+}
+
+@page {
+  size: letter; /* 8.5in x 11in */
+  margin: 0; /* margen seguro */
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--tiz-bg-gray);
+    color: var(--tiz-text);
+}
+
+.certificate-wrapper {
+    width: 297mm;
+    height: 210mm;
+    padding: 15mm;
+    box-sizing: border-box;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Decoración de fondo */
+.tech-shape {
+    position: absolute;
+    background: linear-gradient(135deg, var(--tiz-blue-dark) 0%, #0f172a 100%);
+    width: 40%;
+    height: 120%;
+    top: -10%;
+    left: -15%;
+    transform: rotate(10deg);
+    z-index: 1;
+}
+
+.content-container {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.header-logo {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tiz-brand {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--tiz-blue-light);
+    letter-spacing: -1px;
+}
+
+.tiz-brand span {
+    color: var(--tiz-blue-dark);
+}
+
+h1 {
+    font-size: 48px;
+    margin: 10px 0;
+    color: var(--tiz-blue-dark);
+    text-transform: uppercase;
+}
+
+.award-line {
+    width: 60px;
+    height: 4px;
+    background-color: var(--tiz-blue-light);
+    margin-bottom: 30px;
+}
+
+.recipient-name {
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--tiz-blue-dark);
+    margin: 15px 0;
+    font-style: italic;
+}
+
+.description {
+    font-size: 18px;
+    max-width: 600px;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.course-highlight {
+    color: var(--tiz-blue-light);
+    font-weight: 600;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.sign-box {
+    text-align: center;
+    width: 200px;
+}
+
+.sign-line {
+    border-top: 2px solid #cbd5e1;
+    padding-top: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Sello */
+.modern-seal {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    width: 90px;
+    height: 90px;
+    border: 2px solid var(--tiz-blue-light);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    color: var(--tiz-blue-light);
+    transform: rotate(-15deg);
+}
